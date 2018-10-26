@@ -13,7 +13,7 @@ public class JackOLantern extends java.lang.Object {
         faceFeatures[row][column] = replace;
     }
 
-    // fills the faceFeatures array with a single string
+    // fills the faceFeatures array with a single string...... whatever that means
     public void fill(java.lang.String str) {
 
     }
