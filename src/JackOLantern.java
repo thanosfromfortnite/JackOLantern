@@ -15,7 +15,11 @@ public class JackOLantern extends java.lang.Object {
 
     // fills the faceFeatures array with a single string...... whatever that means
     public void fill(java.lang.String str) {
-
+        for (int i = 0; i < faceFeatures.length; i ++) {
+            for (int x = 0; x < faceFeatures.length; x ++) {
+                faceFeatures[i][x] = str;
+            }
+        }
     }
 
     // Prints out the face row by row
