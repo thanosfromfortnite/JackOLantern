@@ -23,7 +23,12 @@ public class JackOLantern extends java.lang.Object {
         String out = "";
         for (int i = 0; i < faceFeatures.length; i ++) {
             for (int x = 0; x < faceFeatures[i].length; x ++) {
-                out += faceFeatures[i][x];
+                if (x == faceFeatures.length - 1 && x == faceFeatures.length - 1) {
+                    out += faceFeatures[i][x];
+                }
+                else {
+                    out += faceFeatures[i][x] + "\n";
+                }
             }
         }
         return out;
